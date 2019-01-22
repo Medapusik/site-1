@@ -60,29 +60,33 @@ button {
 
 
 .container {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 1280px;
   position: relative;
-  margin: 20px auto;
-  display: inline-block;
 }
 img {
   max-width: 100%;
-  display: block;
-  margin: 30px;
+}
+.topnav-box {
+	margin: auto;
+  	margin-top: 20px;
+  	margin-left: 20px;
+  	max-width: 650px;
+  	min-width: 640px;
+  	position: absolute;
+  	font-weight: 400;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  position: absolute;
   padding: 14px 0;
-  left: 30px;
-  top: 30px;
   background-color: rgba(255,255,255,0.25);
-  margin: 20px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
   color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 34px;
   text-decoration: none;
   font-family: 'Dosis', sans-serif;
   font-size: 24px;
@@ -96,4 +100,20 @@ img {
 .topnav a.active {
   background-color: #afd75f;
   color: #ffffff;
+}
+.text-box {
+	margin: auto;
+  	margin-top: 80px;
+  	margin-left: 20px;
+  	margin-bottom: 20px;
+  	max-width: 640px;
+  	position: absolute;
+ }
+.text-content {
+	padding: 14px 20px;
+	height: 575px;
+	background-color: rgba(255,255,255,0.25);
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 18px;
 }
