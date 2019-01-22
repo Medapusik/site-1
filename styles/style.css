@@ -2,14 +2,14 @@
 html {
 	font-size: 10px;
 	font-family: 'Indie Flower', cursive;
-	font-family: 'Coiny', cursive;
+	font-family: 'Dosis', sans-serif;
 	background-color: #c6c6c6;
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
-  font-family: 'Coiny';
+  font-family: 'Coiny', cursive;
   font-weight: 200;
   font-style: normal;
   color: #ffffff;
@@ -20,7 +20,7 @@ h1 {
 h2 {
   font-size: 24px;
   text-align: center;
-  font-family: 'Coiny';
+  font-family: 'Coiny', cursive;
   font-weight: 200;
   font-style: normal;
   letter-spacing: 5px;
@@ -41,14 +41,6 @@ body {
   padding: 0 10px 10px 10px;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
-	width: 80%;
-	position: relative;
-	padding: 20px 20px;
-}
-
 button {
 	width: auto;
 	height: auto;
@@ -56,11 +48,58 @@ button {
 	text-align: center;
 	color: white;
 	font-size: 20px;
-	font-family: 'Coiny';
+	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
   	font-style: normal;
   	padding: 0 20px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
+}
+
+img {
+  /* The image used */
+  min-width: 600px;
+  margin: 0 auto;
+  /* Needed to position the navbar */
+  position: relative center;
+}
+
+.container {
+  position: absolute;
+  margin: 30px;
+  width: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  background-color: rgba(255,255,255,0.25);
+  margin: 20px;
+  margin-bottom: -80px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(255,255,255,0.8);
+  color: #c6c6c6;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #afd75f;
+  color: #ffffff;
 }
